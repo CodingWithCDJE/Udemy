@@ -21,7 +21,7 @@ def search_rotated_list(list, target):
   right= len(list)-1
   while(left <= right):
     middle = left+right // 2
-    if target === list[middle]: 
+    if target == list[middle]: 
       return middle
     if(list[left] <= list[middle]):
       if(target >= list[left] and target < list[middle]):
